@@ -1,6 +1,7 @@
 # 🐦 Treina‑Tweet
 
-O projeto Treina-Tweet tem como objetivo principal simular a experiência de um feed de tweets, desenvolvida para praticar conceitos de frontend com React.js.
+O projeto Treina-Tweet tem como objetivo principal simular a experiência de um feed de tweets.
+Desenvolvido para praticar conceitos de frontend com React.js.
 
 ## 🎯 Objetivos
 Objetivos e Conceitos Abordados
