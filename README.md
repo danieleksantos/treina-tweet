@@ -1,12 +1,35 @@
-# React + Vite
+# 🐦 Treina‑Tweet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto Treina-Tweet tem como objetivo principal simular a experiência de um feed de tweets, desenvolvida para praticar conceitos de frontend com React.js.
 
-Currently, two official plugins are available:
+## 🎯 Objetivos
+Objetivos e Conceitos Abordados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Componentização com React: O código é estruturado em componentes reutilizáveis (TextInput, Tweet, Index), o que promove a modularidade e organização do código.
+- Gerenciamento de Estado:
+- Hooks do React (useState, useEffect, etc.)
+- Estado Controlado de Formulários
+- Estilização com Módulos CSS
+* Interação com Usuário:
+- Manipulação de Eventos: Eventos como onChange (para o TextInput) e onClick (para o botão "Tweetar") são utilizados para capturar as interações do usuário.
+- Validação de Entrada: O botão "Tweetar" é desabilitado quando o campo de texto está vazio
+- Contador de Caracteres: (limite de caracteres do tweet)
+* Exibição Dinâmica de Dados:
+- Renderização de Listas: A lista de tweets é renderizada dinamicamente, exibindo cada tweet individualmente.
+- Formatação de Datas: A biblioteca date-fns é utilizada para formatar a data de publicação do tweet de forma amigável (e.g., "há 5 minutos"), com localização para português do Brasil (ptBR).
+* Passagem de Propriedades (Props)
+- Manipulação de formulários e listas dinâmicas.
+- Estruturação de código com React e CSS seguindo a metodologia BEM.
 
-## Expanding the ESLint configuration
+## 🔍 Demonstração ao vivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [Acesse o projeto aqui](https://treina-tweet.vercel.app/)
+
+## 🚀 Tecnologias
+
+- **Frontend**: React
+- **Estilização**: CSS com metodologia BEM
+- **Armazenamento local**: `localStorage`
+- **Deploy**: Vercel
+
+
