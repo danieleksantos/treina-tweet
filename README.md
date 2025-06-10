@@ -32,7 +32,6 @@ Passagem de Propriedades (Props)
 
 - **Frontend**: React
 - **Estilização**: CSS com metodologia BEM
-- **Armazenamento local**: `localStorage`
 - **Deploy**: Vercel
 
 
