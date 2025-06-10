@@ -15,7 +15,8 @@ Componentização com React: O código é estruturado em componentes reutilizáv
 - Manipulação de Eventos: Eventos como onChange (para o TextInput) e onClick (para o botão "Tweetar") são utilizados para capturar as interações do usuário.
 - Validação de Entrada: O botão "Tweetar" é desabilitado quando o campo de texto está vazio
 - Contador de Caracteres: (limite de caracteres do tweet)
-* Exibição Dinâmica de Dados:
+
+Exibição Dinâmica de Dados:
 - Renderização de Listas: A lista de tweets é renderizada dinamicamente, exibindo cada tweet individualmente.
 - Formatação de Datas: A biblioteca date-fns é utilizada para formatar a data de publicação do tweet de forma amigável (e.g., "há 5 minutos"), com localização para português do Brasil (ptBR).
 
